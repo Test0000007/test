@@ -1,0 +1,10 @@
+def publicToAddress(pbk):
+    import hashlib as hl
+    sha1st = hl.sha256(pbk)
+    ripemd = hl.new('ripemd160')
+    ripemd.update(sha1st.digest())
+    mnripe = b'\x00' + ripemd.digest()
+    sha2nd = hl.sha256(mnripe)
+    sha3rd = hl.sha256(sha2nd.digest())
+    address = mnripe + sha3rd.digest()[:4]
+    return address
