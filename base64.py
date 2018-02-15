@@ -50,5 +50,3 @@ def base64Decode(s64):
         byt += bytes([((letters.index(bytes([templet[2]])) % 4) << 6) + letters.index(bytes([templet[3]]))])
 
     return byt
-	
-zxc
