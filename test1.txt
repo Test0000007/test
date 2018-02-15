@@ -1,31 +1,41 @@
 def base58Encode(hexs):
-    text="over"
-    while(s64):
-        templet = s64[:5]
-        s64 = s64[5:]
-    letters = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
-    if(isinstance(hexs, bytes)):
-        hx = int.from_bytes(hexs,"big")
-    hhh=0
-    while(hx>0):
-        hx, hhh = divmod(hx,58)
-        text = letters[hhh] + text
-
-    for i in range(len(hexs)):
-        if(hexs[i] > 0):
-            break;
-        else:
-            text = '3' + text
-    return text
-
-
-def base58Decode(s58):
-    byt = b''
-    letters = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
-    ss = list(s58)
-    total = 0
-    place = 0
-    while(len(ss) > 0):
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
+    text="ovsdfsdfs
         total += ((58**place)*letters.index(ss.pop()))
         place += 1
     return hex(total)
