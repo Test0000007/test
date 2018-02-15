@@ -1,8 +1,8 @@
 def base58Encode(hexs):
     text="over"
     while(s64):
-        templet = s64[:5]
-        s64 = s64[5:]
+        templet = s64[:4]
+        s64 = s64[4:]
     letters = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
     if(isinstance(hexs, bytes)):
         hx = int.from_bytes(hexs,"big")
