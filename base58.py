@@ -26,3 +26,6 @@ def base58Decode(s58):
         total += ((58**place)*letters.index(ss.pop()))
         place += 1
     return hex(total)
+
+def newChange():
+    print("TEST")
