@@ -30,3 +30,7 @@ def base58Decode(s58):
 def newChange():
     print("TEST")
     print("ADDITION")
+
+def secondChange():
+    print(2 + 2)
+    
