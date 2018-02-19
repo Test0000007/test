@@ -29,3 +29,4 @@ def base58Decode(s58):
 
 def newChange():
     print("TEST")
+    print("ADDITION")
